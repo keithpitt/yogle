@@ -1,0 +1,7 @@
+== Yogle
+
+Generates random domain names.
+
+== Usage
+
+ruby gen.rb
