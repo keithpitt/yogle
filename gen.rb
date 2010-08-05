@@ -8,11 +8,11 @@ end
 
 if ARGV.first
 	100.times do |x|
-		puts "#{ARGV.first}#{random(tlds).strip}"
+		puts "#{ARGV.first}.#{random(tlds).strip}"
 	end
 else
 	100.times do |x|
-		puts "#{random(words).strip}#{random(tlds).strip}"
+		puts "#{random(words).strip}.#{random(tlds).strip}"
 	end
 end
 
